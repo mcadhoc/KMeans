@@ -1,0 +1,48 @@
+NETWORK DIAGRAM
+
+This matrix displays the distance between different distribution centers for Target in hours
+
+Below is the correspondence of the node number to the location of the distribution center
+
+1	Madison, Alabama
+2	Phoenix, Arizona
+3	Tucson, Arizona
+4	Fortana, California
+5	Ontario, California
+6	Rialto, California
+7	Shatter, California
+8	Woodland, California
+9	Pueblo, Colorado
+10	Lake City, Florida
+11	Midway, Florida
+12	Savannah, Florida
+13	Tilton, Georgia
+14	Dekalb, Illinois
+15	Indianapolis, Indiana
+16	Cedar Falls, Iowa
+17	Topeka, Kansas
+18	Galesburg, Michigan
+19	Fridley, Minnesota
+20	Woodbury, Minnesota
+21	Amsterdam, New York
+22	Wilton, New York
+23	Newton, North Carolina
+24	West Jefferson, Ohio
+25	Albany, Oregon
+26	Chamberburg, Pennsylvania
+27	Lugoff, South Carolina
+28	Fort Worth, Texas
+29	Midlothian, Texas
+30	Tyler, Texas
+31	Stuarts Draft, Virginia
+32	Suffolk, Virginia
+33	Oconomowoc, Wisconsin
+34	Lacey, Washington
+
+
+The most concise way to abbreviate relationships is using a dictionary and a tuple
+
+{[(node_from, node_to), edge_value]}
+
+{(node_num, (property1, property2)}
+
